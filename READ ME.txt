@@ -1,0 +1,1 @@
+Switch for enviroment mvn test -Denv=qa
