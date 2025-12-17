@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Login with empty username and valid password","1447","EmptyUsernameLoginTC","Default Suite","2025-12-09","passed","2025-12-09","tests.StandradUser.LoginTest","AddtoCartTest.java","tests.StandradUser.LoginTest","EmptyUsernameLoginTC"

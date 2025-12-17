@@ -1,5 +1,6 @@
 package pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -17,15 +18,17 @@ public class Checkout2Page {
     }
 
     //funciton to check summary details are correct
+    @Step("Verify summary total is correct: {expectedTotal}")
     public boolean isSummaryDetailsCorrect(String expectedTotal) {
         String totalText = driver.findElement(summarySubtotalLabel).getText();
         return totalText.contains(expectedTotal);
     }
 
+    @Step("Click Finish button")
     public void clickFinishButton() {
         driver.findElement(finishButton).click();
     }
-
+    @Step("Click Cancel button")
     public void clickCancelButton() {
         driver.findElement(cancelButton).click();
     }

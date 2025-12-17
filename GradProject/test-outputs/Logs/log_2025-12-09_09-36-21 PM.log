@@ -1,0 +1,48 @@
+[DEBUG] 09-12-2025 21:36:22 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\ebrahim\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] 09-12-2025 21:36:22 [main] [listeners.TestListener] - Allure results directory exists: H:\software testing\Automation coursse work\GradProject\GradProject\test-output\allure-results
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setUpClass()[pri:0, instance:null] -1457685708
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDownClass()[pri:0, instance:null] 458945177
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setup()[pri:0, instance:null] 249585106
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDown()[pri:0, instance:null] -1800487415
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.ValidLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@2792b416] 1477412031
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:36:23 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 09-12-2025 21:36:23 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\ebrahim\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 09-12-2025 21:36:23 [main] [listeners.TestListener] - TestNG context started: AddtoCartTest.java
+[INFO] 09-12-2025 21:36:23 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 21:36:23 [main] [Base.Base] - Starting Test Class: LoginTest
+[INFO] 09-12-2025 21:36:23 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 21:36:23 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 21:36:28 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 21:36:28 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 21:36:29 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 21:36:30 [main] [listeners.TestListener] - Started recording for: ValidLoginTC
+[INFO] 09-12-2025 21:36:31 [main] [pages.LoginPage] - Attempting to log in with username: standard_user
+[INFO] 09-12-2025 21:36:31 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - ValidLoginTC - 2025-12-09_21-36-31
+[INFO] 09-12-2025 21:36:31 [main] [listeners.TestListener] - Screenshot captured: Success - ValidLoginTC - 2025-12-09_21-36-31
+[INFO] 09-12-2025 21:36:31 [main] [listeners.TestListener] - Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\ValidLoginTC.avi
+[INFO] 09-12-2025 21:36:31 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 21:36:32 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 21:36:32 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 21:36:32 [main] [Base.Base] - Finished Test Class: LoginTest
+[INFO] 09-12-2025 21:36:32 [main] [Base.Base] - ========================================

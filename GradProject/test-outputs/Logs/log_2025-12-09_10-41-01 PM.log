@@ -1,0 +1,48 @@
+[DEBUG] 09-12-2025 22:41:01 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\ebrahim\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] 09-12-2025 22:41:01 [main] [listeners.TestListener] - Allure results directory exists: H:\software testing\Automation coursse work\GradProject\GradProject\test-output\allure-results
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setUpClass()[pri:0, instance:null] -1457685708
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDownClass()[pri:0, instance:null] 458945177
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setup()[pri:0, instance:null] 249585106
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDown()[pri:0, instance:null] -1800487415
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.EmptyUsernameLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@62765aec] 1810135516
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:41:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 09-12-2025 22:41:02 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\ebrahim\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 09-12-2025 22:41:02 [main] [listeners.TestListener] - TestNG context started: AddtoCartTest.java
+[INFO] 09-12-2025 22:41:02 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 22:41:02 [main] [Base.Base] - Starting Test Class: LoginTest
+[INFO] 09-12-2025 22:41:02 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 22:41:02 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 22:41:15 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 22:41:15 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 22:41:21 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 22:41:21 [main] [listeners.TestListener] - Started recording for: EmptyUsernameLoginTC
+[INFO] 09-12-2025 22:41:23 [main] [pages.LoginPage] - Attempting to log in with username: 
+[INFO] 09-12-2025 22:41:24 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - EmptyUsernameLoginTC - 2025-12-09_22-41-23
+[INFO] 09-12-2025 22:41:24 [main] [listeners.TestListener] - Screenshot captured: Success - EmptyUsernameLoginTC - 2025-12-09_22-41-23
+[INFO] 09-12-2025 22:41:24 [main] [listeners.TestListener] - Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\EmptyUsernameLoginTC.avi
+[INFO] 09-12-2025 22:41:24 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 22:41:24 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 22:41:24 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 22:41:24 [main] [Base.Base] - Finished Test Class: LoginTest
+[INFO] 09-12-2025 22:41:24 [main] [Base.Base] - ========================================

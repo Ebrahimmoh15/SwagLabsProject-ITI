@@ -1,5 +1,6 @@
 package pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,16 +24,22 @@ public class CheckoutCompletePage {
 
 
     WebDriver driver;
+
     public CheckoutCompletePage(WebDriver driver) {
         this.driver = driver;
     }
+
+    @Step("Check if Thank You message is displayed")
     public boolean isThankYouMessageDisplayed() {
         return driver.findElement(THANK_YOU_MESSAGE).isDisplayed();
     }
+
+    @Step("Click Back to Products button")
     public void clickBackToProductsButton() {
         driver.findElement(BacktoProductbtn).click();
     }
 
+    @Step("Logout from menu")
     public void logoutFromMenu() {
         driver.findElement(menubtn).click();
 
@@ -41,6 +48,8 @@ public class CheckoutCompletePage {
         waitHelper.waitForVisibility(logoutbtn);
         driver.findElement(logoutbtn).click();
     }
+
+    @Step("Verify all menu items are displayed")
     // verfiy all menu items are displayed
     public boolean MenuItemsAreDisplayed() {
         driver.findElement(menubtn).click();

@@ -1,0 +1,121 @@
+[DEBUG] 09-12-2025 21:25:30 [main] [org.testng.TestNG] - suiteXmlPath: "H:\software testing\Automation coursse work\GradProject\GradProject\testng.xml"
+[WARN] 09-12-2025 21:25:31 [main] [org.testng.TestNG] - Ignoring duplicate listener : listeners.TestListener
+[WARN] 09-12-2025 21:25:31 [main] [org.testng.TestNG] - Ignoring duplicate listener : listeners.TestListener
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setUpClass()[pri:0, instance:null] -1457685708
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDownClass()[pri:0, instance:null] 458945177
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setup()[pri:0, instance:null] 249585106
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDown()[pri:0, instance:null] -1800487415
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.EmptyPasswordLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@6cbe68e9] -925529706
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.LockedOutUserLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@6cbe68e9] 473852253
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.ValidLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@6cbe68e9] -1657063022
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.EmptyUsernameLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@6cbe68e9] 1982629849
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.InvalidPasswordLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@6cbe68e9] -1661635256
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.InvalidUsernameLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@6cbe68e9] -1497731717
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.PerformanceGlitchUserLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@6cbe68e9] -1297947266
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 21:25:31 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 09-12-2025 21:25:31 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  H:\software testing\Automation coursse work\GradProject\GradProject\testng.xml
+
+[INFO] 09-12-2025 21:25:31 [main] [listeners.TestListener] - Allure results directory set to: H:\software testing\Automation coursse work\GradProject\GradProject\test-output\allure-results
+[INFO] 09-12-2025 21:25:31 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 21:25:31 [main] [Base.Base] - Starting Test Class: LoginTest
+[INFO] 09-12-2025 21:25:31 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 21:25:31 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 21:25:36 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 21:25:36 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 21:25:38 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 21:25:38 [main] [listeners.TestListener] - Started recording for: EmptyPasswordLoginTC
+[INFO] 09-12-2025 21:25:39 [main] [pages.LoginPage] - Attempting to log in with username: standard_user
+[INFO] 09-12-2025 21:25:39 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - EmptyPasswordLoginTC - 2025-12-09_21-25-39
+[INFO] 09-12-2025 21:25:39 [main] [listeners.TestListener] - Screenshot captured: Success - EmptyPasswordLoginTC - 2025-12-09_21-25-39
+[INFO] 09-12-2025 21:25:39 [main] [listeners.TestListener] - Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\EmptyPasswordLoginTC.avi
+[INFO] 09-12-2025 21:25:39 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 21:25:39 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 21:25:39 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 21:25:43 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 21:25:43 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 21:25:45 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 21:25:45 [main] [listeners.TestListener] - Started recording for: EmptyUsernameLoginTC
+[INFO] 09-12-2025 21:25:46 [main] [pages.LoginPage] - Attempting to log in with username: 
+[INFO] 09-12-2025 21:25:46 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - EmptyUsernameLoginTC - 2025-12-09_21-25-46
+[INFO] 09-12-2025 21:25:46 [main] [listeners.TestListener] - Screenshot captured: Success - EmptyUsernameLoginTC - 2025-12-09_21-25-46
+[INFO] 09-12-2025 21:25:46 [main] [listeners.TestListener] - Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\EmptyUsernameLoginTC.avi
+[INFO] 09-12-2025 21:25:46 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 21:25:46 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 21:25:46 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 21:25:50 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 21:25:50 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 21:25:53 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 21:25:53 [main] [listeners.TestListener] - Started recording for: InvalidPasswordLoginTC
+[INFO] 09-12-2025 21:25:54 [main] [pages.LoginPage] - Attempting to log in with username: standard_user
+[INFO] 09-12-2025 21:25:54 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - InvalidPasswordLoginTC - 2025-12-09_21-25-54
+[INFO] 09-12-2025 21:25:54 [main] [listeners.TestListener] - Screenshot captured: Success - InvalidPasswordLoginTC - 2025-12-09_21-25-54
+[INFO] 09-12-2025 21:25:54 [main] [listeners.TestListener] - Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\InvalidPasswordLoginTC.avi
+[INFO] 09-12-2025 21:25:54 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 21:25:54 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 21:25:54 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 21:25:58 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 21:25:58 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 21:26:00 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 21:26:00 [main] [listeners.TestListener] - Started recording for: InvalidUsernameLoginTC
+[INFO] 09-12-2025 21:26:01 [main] [pages.LoginPage] - Attempting to log in with username: invalid_user
+[INFO] 09-12-2025 21:26:01 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - InvalidUsernameLoginTC - 2025-12-09_21-26-01
+[INFO] 09-12-2025 21:26:01 [main] [listeners.TestListener] - Screenshot captured: Success - InvalidUsernameLoginTC - 2025-12-09_21-26-01
+[INFO] 09-12-2025 21:26:01 [main] [listeners.TestListener] - Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\InvalidUsernameLoginTC.avi
+[INFO] 09-12-2025 21:26:01 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 21:26:02 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 21:26:02 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 21:26:05 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 21:26:05 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 21:26:07 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 21:26:07 [main] [listeners.TestListener] - Started recording for: LockedOutUserLoginTC
+[INFO] 09-12-2025 21:26:08 [main] [pages.LoginPage] - Attempting to log in with username: locked_out_user
+[INFO] 09-12-2025 21:26:08 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - LockedOutUserLoginTC - 2025-12-09_21-26-08
+[INFO] 09-12-2025 21:26:08 [main] [listeners.TestListener] - Screenshot captured: Success - LockedOutUserLoginTC - 2025-12-09_21-26-08
+[INFO] 09-12-2025 21:26:09 [main] [listeners.TestListener] - Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\LockedOutUserLoginTC.avi
+[INFO] 09-12-2025 21:26:09 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 21:26:09 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 21:26:09 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 21:26:13 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 21:26:13 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 21:26:14 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 21:26:15 [main] [listeners.TestListener] - Started recording for: PerformanceGlitchUserLoginTC
+[INFO] 09-12-2025 21:26:20 [main] [pages.LoginPage] - Attempting to log in with username: performance_glitch_user
+[INFO] 09-12-2025 21:26:21 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - PerformanceGlitchUserLoginTC - 2025-12-09_21-26-20
+[INFO] 09-12-2025 21:26:21 [main] [listeners.TestListener] - Screenshot captured: Success - PerformanceGlitchUserLoginTC - 2025-12-09_21-26-20
+[INFO] 09-12-2025 21:26:21 [main] [listeners.TestListener] - Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\PerformanceGlitchUserLoginTC.avi
+[INFO] 09-12-2025 21:26:21 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 21:26:21 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 21:26:21 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 21:26:23 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 21:26:23 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 21:26:25 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 21:26:25 [main] [listeners.TestListener] - Started recording for: ValidLoginTC
+[INFO] 09-12-2025 21:26:26 [main] [pages.LoginPage] - Attempting to log in with username: standard_user
+[INFO] 09-12-2025 21:26:26 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - ValidLoginTC - 2025-12-09_21-26-26
+[INFO] 09-12-2025 21:26:26 [main] [listeners.TestListener] - Screenshot captured: Success - ValidLoginTC - 2025-12-09_21-26-26
+[INFO] 09-12-2025 21:26:26 [main] [listeners.TestListener] - Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\ValidLoginTC.avi
+[INFO] 09-12-2025 21:26:26 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 21:26:27 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 21:26:27 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 21:26:27 [main] [Base.Base] - Finished Test Class: LoginTest
+[INFO] 09-12-2025 21:26:27 [main] [Base.Base] - ========================================

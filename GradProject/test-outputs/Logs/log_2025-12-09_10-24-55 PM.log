@@ -1,0 +1,84 @@
+[DEBUG] 09-12-2025 22:24:55 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\ebrahim\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] 09-12-2025 22:24:55 [main] [listeners.TestListener] - Allure results directory exists: H:\software testing\Automation coursse work\GradProject\GradProject\test-output\allure-results
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setUpClass()[pri:0, instance:null] -1457685708
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDownClass()[pri:0, instance:null] 458945177
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setup()[pri:0, instance:null] 249585106
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDown()[pri:0, instance:null] -1800487415
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.InvalidPasswordLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@3fc7c734] 1878971283
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 09-12-2025 22:24:56 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 09-12-2025 22:24:56 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\ebrahim\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] 09-12-2025 22:24:56 [main] [listeners.TestListener] - TestNG context started: AddtoCartTest.java
+[INFO] 09-12-2025 22:24:56 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 22:24:56 [main] [Base.Base] - Starting Test Class: LoginTest
+[INFO] 09-12-2025 22:24:56 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 22:24:56 [main] [Base.Base] - Setting up test environment...
+[INFO] 09-12-2025 22:25:01 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 09-12-2025 22:25:01 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 09-12-2025 22:25:03 [main] [Base.Base] - Navigation completed
+[INFO] 09-12-2025 22:25:03 [main] [listeners.TestListener] - Started recording for: InvalidPasswordLoginTC
+[INFO] 09-12-2025 22:25:04 [main] [pages.LoginPage] - Attempting to log in with username: standard_user
+[ERROR] 09-12-2025 22:25:04 [main] [listeners.TestListenerVideoAttach] - Video conversion/attachment failed for InvalidPasswordLoginTC: Cannot run program "ffmpeg": CreateProcess error=2, The system cannot find the file specified
+java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1044) ~[?:?]
+	at Media.VideoConverter.convertAviToMp4(VideoConverter.java:47) ~[classes/:?]
+	at listeners.TestListenerVideoAttach.attachConvertedVideo(TestListenerVideoAttach.java:26) [test-classes/:?]
+	at listeners.TestListener.afterInvocation(TestListener.java:67) [test-classes/:?]
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:59) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:82) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:746) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method) ~[?:?]
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:485) ~[?:?]
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:146) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1076) ~[?:?]
+	... 28 more
+[INFO] 09-12-2025 22:25:04 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: Success - InvalidPasswordLoginTC - 2025-12-09_22-25-04
+[INFO] 09-12-2025 22:25:04 [main] [listeners.TestListener] - Screenshot captured: Success - InvalidPasswordLoginTC - 2025-12-09_22-25-04
+[INFO] 09-12-2025 22:25:04 [main] [Base.Base] - Tearing down test environment...
+[INFO] 09-12-2025 22:25:05 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 09-12-2025 22:25:05 [main] [Base.Base] - ========================================
+[INFO] 09-12-2025 22:25:05 [main] [Base.Base] - Finished Test Class: LoginTest
+[INFO] 09-12-2025 22:25:05 [main] [Base.Base] - ========================================
