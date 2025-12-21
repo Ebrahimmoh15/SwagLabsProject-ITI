@@ -1,0 +1,136 @@
+[INFO] 19-12-2025 00:23:01 [main] [listeners.TestListener] - Allure results directory exists: H:\software testing\Automation coursse work\GradProject\GradProject\test-output\allure-results
+[INFO] 19-12-2025 00:23:01 [main] [utils.report.AllureUtlis] - Cleaning Allure results directory...
+[INFO] 19-12-2025 00:23:01 [main] [utils.report.AllureUtlis] - Allure results directory cleaned successfully
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.setup2()[pri:0, instance:null] -415592592
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setUpClass()[pri:0, instance:null] -1457685708
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDownClass()[pri:0, instance:null] 458945177
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.setup()[pri:0, instance:null] 249585106
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE Base.tearDown()[pri:0, instance:null] -1800487415
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.setup2()[pri:0, instance:tests.StandradUser.LoginTest@9b5f3c7] 164450903
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ADDING NODE LoginTest.ValidLoginTC()[pri:0, instance:tests.StandradUser.LoginTest@9b5f3c7] 976405616
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ================ SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] =============== DONE SORTING
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== SORTED NODES
+[TRACE] 19-12-2025 00:23:02 [main] [org.testng.internal.Graph] - [Graph] ====== END SORTED NODES
+[INFO] 19-12-2025 00:23:02 [main] [listeners.TestListener] - ╔══════════════════════════════════════════════════════╗
+[INFO] 19-12-2025 00:23:02 [main] [listeners.TestListener] - ║       TEST SUITE EXECUTION STARTED                   ║
+[INFO] 19-12-2025 00:23:02 [main] [listeners.TestListener] - ╚══════════════════════════════════════════════════════╝
+[INFO] 19-12-2025 00:23:02 [main] [listeners.TestListener] - Suite Name: Surefire suite
+[INFO] 19-12-2025 00:23:02 [main] [listeners.TestListener] - Auto Generate Report: true
+[INFO] 19-12-2025 00:23:02 [main] [listeners.TestListener] - Auto Open Report: true
+[INFO] 19-12-2025 00:23:02 [main] [listeners.TestListener] - ═══════════════════════════════════════════════════════
+[INFO] 19-12-2025 00:23:02 [main] [listeners.TestListener] - TestNG context started: Surefire test
+[INFO] 19-12-2025 00:23:02 [main] [listeners.TestListener] - ═══════════════════════════════════════════════════════
+[INFO] 19-12-2025 00:23:02 [main] [Base.Base] - ========================================
+[INFO] 19-12-2025 00:23:02 [main] [Base.Base] - Starting Test Class: LoginTest
+[INFO] 19-12-2025 00:23:02 [main] [Base.Base] - ========================================
+[INFO] 19-12-2025 00:23:02 [main] [Base.Base] - Setting up test environment...
+[INFO] 19-12-2025 00:23:07 [main] [Base.Base] - WebDriver initialized successfully
+[INFO] 19-12-2025 00:23:07 [main] [Base.Base] - Navigating to base URL: https://www.saucedemo.com/
+[INFO] 19-12-2025 00:23:09 [main] [Base.Base] - Navigation completed
+[INFO] 19-12-2025 00:23:09 [main] [listeners.TestListener] - ▶ Test Started: ValidLoginTC
+[INFO] 19-12-2025 00:23:09 [main] [listeners.TestListener] - ▶ Started recording for: ValidLoginTC
+[INFO] 19-12-2025 00:23:10 [main] [pages.LoginPage] - Attempting to log in with username: standard_user
+[INFO] 19-12-2025 00:23:11 [main] [Media.ScreenshotUtils] - Screenshot attached to Allure: SUCCESS - ValidLoginTC - 2025-12-19_00-23-10
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ✓ Screenshot captured: SUCCESS - ValidLoginTC - 2025-12-19_00-23-10
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ✓ Video attached: H:\software testing\Automation coursse work\GradProject\GradProject\test-recordings\ValidLoginTC.avi
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ✓ Test Passed: ValidLoginTC
+[INFO] 19-12-2025 00:23:11 [main] [Base.Base] - Tearing down test environment...
+[INFO] 19-12-2025 00:23:11 [main] [Base.Base] - WebDriver quit successfully
+[INFO] 19-12-2025 00:23:11 [main] [Base.Base] - ========================================
+[INFO] 19-12-2025 00:23:11 [main] [Base.Base] - Finished Test Class: LoginTest
+[INFO] 19-12-2025 00:23:11 [main] [Base.Base] - ========================================
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ═══════════════════════════════════════════════════════
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - TestNG context finished: Surefire test
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - Passed: 1 | Failed: 0 | Skipped: 0
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ═══════════════════════════════════════════════════════
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ╔══════════════════════════════════════════════════════╗
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ║       TEST SUITE EXECUTION COMPLETED                 ║
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ╚══════════════════════════════════════════════════════╝
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - Suite Name: Surefire suite
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ═══════════════════════════════════════════════════════
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] -               TEST EXECUTION SUMMARY                   
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ═══════════════════════════════════════════════════════
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - Total Tests:  1
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ✓ Passed:     1
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ✗ Failed:     0
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ⊘ Skipped:    0
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - Success Rate: {:.2f}%
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ═══════════════════════════════════════════════════════
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - 
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ╔══════════════════════════════════════════════════════╗
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ║         GENERATING ALLURE REPORT                     ║
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ╚══════════════════════════════════════════════════════╝
+[WARN] 19-12-2025 00:23:11 [main] [listeners.TestListener] - Allure CLI not found. Attempting to use Maven...
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - To install Allure CLI:
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] -   • npm install -g allure-commandline
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] -   • brew install allure (Mac)
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] -   • scoop install allure (Windows)
+[INFO] 19-12-2025 00:23:11 [main] [utils.report.AllureUtlis] - ═══════════════════════════════════════════════════
+[INFO] 19-12-2025 00:23:11 [main] [utils.report.AllureUtlis] -       GENERATING ALLURE REPORT VIA MAVEN           
+[INFO] 19-12-2025 00:23:11 [main] [utils.report.AllureUtlis] - ═══════════════════════════════════════════════════
+[ERROR] 19-12-2025 00:23:11 [main] [utils.report.AllureUtlis] - Error generating report via Maven: Cannot run program "mvn": CreateProcess error=2, The system cannot find the file specified
+java.io.IOException: Cannot run program "mvn": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1044) ~[?:?]
+	at utils.report.AllureUtlis.generateReportViaMaven(AllureUtlis.java:220) [classes/:?]
+	at listeners.TestListener.generateAllureReport(TestListener.java:253) [test-classes/:?]
+	at listeners.TestListener.onFinish(TestListener.java:80) [test-classes/:?]
+	at org.testng.SuiteRunner.invokeListeners(SuiteRunner.java:249) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:314) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method) ~[?:?]
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:485) ~[?:?]
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:146) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1076) ~[?:?]
+	... 20 more
+[ERROR] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ✗ Failed to generate report via Maven
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - Manual generation: mvn allure:report
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - 
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ╔══════════════════════════════════════════════════════╗
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ║          OPENING ALLURE REPORT                       ║
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ╚══════════════════════════════════════════════════════╝
+[WARN] 19-12-2025 00:23:11 [main] [listeners.TestListener] - Allure CLI not found. Opening report file directly...
+[INFO] 19-12-2025 00:23:11 [main] [utils.report.AllureUtlis] - Report found at: H:\software testing\Automation coursse work\GradProject\GradProject\test-output\allure-report\index.html
+[INFO] 19-12-2025 00:23:11 [main] [utils.report.AllureUtlis] - ✓ Report opened in default browser
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ═══════════════════════════════════════════════════════
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - Test execution completed. Thank you!
+[INFO] 19-12-2025 00:23:11 [main] [listeners.TestListener] - ═══════════════════════════════════════════════════════
