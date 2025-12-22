@@ -32,7 +32,7 @@
             maven-version: 3.9.11
 
         - name: running tests
-          run: mvn -Dtest=tests.StandradUser.LoginTest -Dbrowser=chrome -Dheadless=true test
+          run: mvn -f ./path/to/module/pom.xml -Dtest=tests.StandradUser.LoginTest -Dbrowser=chrome -Dheadless=true test
 
         - name: upload test report
           uses: actions/upload-artifact@v4
