@@ -79,7 +79,8 @@
               exit 1
             }
             Write-Host "Located POM: $($pom.FullName)"
-            mvn -f "$($pom.FullName)" -Dtest=tests.StandradUser.LoginTest -Dbrowser=edge -Dheadless=true clean test
+            & mvn -f "$($pom.FullName)" "-Dtest=tests.StandradUser.LoginTest" "-Dbrowser=edge" "-Dheadless=true" clean test
+            
         - name: upload test report
           uses: actions/upload-artifact@v4
           with:
