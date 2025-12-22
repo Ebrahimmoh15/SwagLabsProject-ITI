@@ -44,7 +44,8 @@
               echo "No pom.xml found" >&2
               exit 1
             fi
-            mvn -f "$POM" -Dtest=tests.StandradUser.LoginTest -Dbrowser=chrome -Dheadless=true test
+            mvn -f "$POM" -Dtest=tests.StandardUser.LoginTest -Dbrowser=chrome -Dheadless=true test
+            
         - name: upload test report
           uses: actions/upload-artifact@v4
           with:
@@ -79,7 +80,7 @@
               exit 1
             }
             Write-Host "Located POM: $($pom.FullName)"
-            & mvn -f "$($pom.FullName)" "-Dtest="GradProject/src/test/java/tests/StandradUser/LoginTest"" "-Dbrowser=edge" "-Dheadless=true" clean test
+            & mvn -f "$($pom.FullName)" "-Dtest=GradProject/src/test/java/tests/StandradUser/LoginTest" "-Dbrowser=edge" "-Dheadless=true" clean test
 
         - name: upload test report
           uses: actions/upload-artifact@v4
