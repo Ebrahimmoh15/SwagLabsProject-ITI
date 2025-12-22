@@ -71,8 +71,15 @@
             maven-version: 3.9.11
 
         - name: running tests
-          run: mvn -Dtest=tests.StandradUser.LoginTest -Dbrowser=edge -Dheadless=true clean test
-
+          shell: pwsh
+          run: |
+            $pom = Get-ChildItem -Path . -Recurse -Filter pom.xml -File | Where-Object { $_.FullName -notmatch '\\target\\' } | Select-Object -First 1
+            if (-not $pom) {
+              Write-Error "No pom.xml found"
+              exit 1
+            }
+            Write-Host "Located POM: $($pom.FullName)"
+            mvn -f "$($pom.FullName)" -Dtest=tests.StandradUser.LoginTest -Dbrowser=edge -Dheadless=true clean test
         - name: upload test report
           uses: actions/upload-artifact@v4
           with:
