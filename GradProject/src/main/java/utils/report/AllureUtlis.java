@@ -53,9 +53,7 @@ public class AllureUtlis {
      * @return true if report generated successfully, false otherwise
      */
     public static boolean generateReport() {
-        logger.info("═══════════════════════════════════════════════════");
-        logger.info("           GENERATING ALLURE REPORT                ");
-        logger.info("═══════════════════════════════════════════════════");
+
 
         try {
             // Check if results directory exists
@@ -109,9 +107,7 @@ public class AllureUtlis {
      * @return true if report opened successfully, false otherwise
      */
     public static boolean openReport() {
-        logger.info("═══════════════════════════════════════════════════");
-        logger.info("            OPENING ALLURE REPORT                  ");
-        logger.info("═══════════════════════════════════════════════════");
+
 
         try {
             // Check if report directory exists
@@ -157,9 +153,7 @@ public class AllureUtlis {
      * @return true if successful, false otherwise
      */
     public static boolean generateAndOpenReport() {
-        logger.info("═══════════════════════════════════════════════════");
-        logger.info("      GENERATING AND OPENING ALLURE REPORT         ");
-        logger.info("═══════════════════════════════════════════════════");
+
 
         try {
             // Check if results directory exists
@@ -207,9 +201,7 @@ public class AllureUtlis {
      * @return true if successful, false otherwise
      */
     public static boolean generateReportViaMaven() {
-        logger.info("═══════════════════════════════════════════════════");
-        logger.info("      GENERATING ALLURE REPORT VIA MAVEN           ");
-        logger.info("═══════════════════════════════════════════════════");
+
 
         try {
             ProcessBuilder processBuilder = new ProcessBuilder(
@@ -244,9 +236,7 @@ public class AllureUtlis {
      * @return true if successful, false otherwise
      */
     public static boolean serveReportViaMaven() {
-        logger.info("═══════════════════════════════════════════════════");
-        logger.info("       SERVING ALLURE REPORT VIA MAVEN             ");
-        logger.info("═══════════════════════════════════════════════════");
+
 
         try {
             ProcessBuilder processBuilder = new ProcessBuilder(

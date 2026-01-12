@@ -53,9 +53,7 @@ public class TestListener implements ITestListener, IInvokedMethodListener, ISui
      */
     @Override
     public void onStart(ISuite suite) {
-        logger.info("╔══════════════════════════════════════════════════════╗");
-        logger.info("║       TEST SUITE EXECUTION STARTED                   ║");
-        logger.info("╚══════════════════════════════════════════════════════╝");
+
         logger.info("Suite Name: {}", suite.getName());
         logger.info("Auto Generate Report: {}", AUTO_GENERATE_REPORT);
         logger.info("Auto Open Report: {}", AUTO_OPEN_REPORT);
@@ -67,9 +65,7 @@ public class TestListener implements ITestListener, IInvokedMethodListener, ISui
      */
     @Override
     public void onFinish(ISuite suite) {
-        logger.info("╔══════════════════════════════════════════════════════╗");
-        logger.info("║       TEST SUITE EXECUTION COMPLETED                 ║");
-        logger.info("╚══════════════════════════════════════════════════════╝");
+
         logger.info("Suite Name: {}", suite.getName());
 
         // Log suite results summary
@@ -85,9 +81,7 @@ public class TestListener implements ITestListener, IInvokedMethodListener, ISui
             openAllureReport();
         }
 
-        logger.info("═══════════════════════════════════════════════════════");
-        logger.info("Test execution completed. Thank you!");
-        logger.info("═══════════════════════════════════════════════════════");
+
     }
 
     // =====================================
@@ -96,20 +90,20 @@ public class TestListener implements ITestListener, IInvokedMethodListener, ISui
 
     @Override
     public void onStart(ITestContext context) {
-        logger.info("═══════════════════════════════════════════════════════");
+
         logger.info("TestNG context started: {}", context.getName());
-        logger.info("═══════════════════════════════════════════════════════");
+
     }
 
     @Override
     public void onFinish(ITestContext context) {
-        logger.info("═══════════════════════════════════════════════════════");
+
         logger.info("TestNG context finished: {}", context.getName());
         logger.info("Passed: {} | Failed: {} | Skipped: {}",
                 context.getPassedTests().size(),
                 context.getFailedTests().size(),
                 context.getSkippedTests().size());
-        logger.info("═══════════════════════════════════════════════════════");
+
     }
 
     // =====================================
@@ -223,9 +217,7 @@ public class TestListener implements ITestListener, IInvokedMethodListener, ISui
      */
     private void generateAllureReport() {
         logger.info("");
-        logger.info("╔══════════════════════════════════════════════════════╗");
-        logger.info("║         GENERATING ALLURE REPORT                     ║");
-        logger.info("╚══════════════════════════════════════════════════════╝");
+
 
         try {
             // Try Allure CLI first
@@ -266,9 +258,7 @@ public class TestListener implements ITestListener, IInvokedMethodListener, ISui
      */
     private void openAllureReport() {
         logger.info("");
-        logger.info("╔══════════════════════════════════════════════════════╗");
-        logger.info("║          OPENING ALLURE REPORT                       ║");
-        logger.info("╚══════════════════════════════════════════════════════╝");
+
 
         try {
             if (AllureUtlis.isAllureInstalled()) {
@@ -310,9 +300,7 @@ public class TestListener implements ITestListener, IInvokedMethodListener, ISui
             skipped += context.getSkippedTests().size();
         }
 
-        logger.info("═══════════════════════════════════════════════════════");
-        logger.info("              TEST EXECUTION SUMMARY                   ");
-        logger.info("═══════════════════════════════════════════════════════");
+
         logger.info("Total Tests:  {}", totalTests);
         logger.info("✓ Passed:     {}", passed);
         logger.info("✗ Failed:     {}", failed);
@@ -323,6 +311,6 @@ public class TestListener implements ITestListener, IInvokedMethodListener, ISui
             logger.info("Success Rate: {:.2f}%", successRate);
         }
 
-        logger.info("═══════════════════════════════════════════════════════");
+
     }
 }

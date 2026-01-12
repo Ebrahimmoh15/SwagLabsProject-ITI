@@ -23,9 +23,9 @@ public class Base {
      */
     @BeforeClass(alwaysRun = true)
     public void setUpClass() {
-        logger.info("========================================");
+
         logger.info("Starting Test Class: {}", this.getClass().getSimpleName());
-        logger.info("========================================");
+
     }
 
     /**
@@ -35,7 +35,6 @@ public class Base {
     @BeforeMethod(alwaysRun = true)
     @Step("Setup: Initialize WebDriver and navigate to base URL")
     public void setup() {
-        logger.info("Setting up test environment...");
 
         // Initialize driver
         driver = DriverFactory.initializeDriver();
@@ -69,9 +68,9 @@ public class Base {
      */
     @AfterClass(alwaysRun = true)
     public void tearDownClass() {
-        logger.info("========================================");
+
         logger.info("Finished Test Class: {}", this.getClass().getSimpleName());
-        logger.info("========================================");
+
     }
 
     /**
